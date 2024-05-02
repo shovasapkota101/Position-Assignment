@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+  }
+  
+  .static-box {
+    background-color: lightblue;
+    padding: 20px;
+    border: 1px solid blue;
+    position: static;
+    top: 20px;
+    left: 30px;
+  }
+  
+  .relative-box {
+    background-color: lightgreen;
+    padding: 20px;
+    border: 1px solid rgb(210, 17, 17);
+    position: relative;
+    left: 50px;
+    top: 20px;
+  }
+  
